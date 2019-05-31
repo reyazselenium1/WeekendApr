@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Newtours Login2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day000.LinksOnGrid">
+        <methods>
+          <include name="linkTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day000.LinksOnGrid -->
+    </classes>
+  </test> <!-- Newtours Login2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

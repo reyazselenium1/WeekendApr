@@ -1,0 +1,81 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Validate Login",
+        "description": "",
+        "id": "to-validate-newtours-login-functionality;validate-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4281706830,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open Chrome",
+            "match": {
+              "location": "NewtoursSteps.i_open_Chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4407171646,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I go to loginURL",
+            "match": {
+              "location": "NewtoursSteps.i_go_to_loginURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26929676828,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Login inside application",
+            "match": {
+              "location": "NewtoursSteps.login_inside(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "qshore",
+                  "qshore123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate Newtours login functionality",
+    "description": "",
+    "id": "to-validate-newtours-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/loginTest.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
